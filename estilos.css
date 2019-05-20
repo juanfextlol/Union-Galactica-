@@ -1,0 +1,242 @@
+                *{
+                    margin:0;
+                    padding:0;
+                
+                }
+                h1{
+                    font-size: 50px;
+                    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: bold;
+                }
+                h2{
+                    font-size: 28px;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: bold;
+                }
+                h3{
+                    font-size:20px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                .Orange{
+                    background:orange;
+                    color:white;
+                    padding:20px;
+                }
+            #cabecera{
+                background: orange;
+                color:white;
+            }
+           
+            .cabecera3{
+                background:orange;
+                color:black;
+                padding:20px;
+                margin-bottom: 15px;
+            }
+            .Black{
+
+            background:black;
+            color:white
+            }
+            blockquote[cite]{
+                color:red;
+            
+            }
+            header, section, footer,aside,nav,article,hgroup{
+
+                display:block
+            }
+            body{
+                background:rgba(245, 199, 115, .9);
+                text-align: center;
+                margin=0;
+
+            }
+            .agrupar{
+                width=960px;
+                margin:15px auto;
+                border:2px solid black
+            }
+            .menu{
+                background:rgb(238, 235, 235);
+                padding:5px 15px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .menu li {
+                list-style:none;
+                padding:5px;
+                font:bold 14px verdana;
+                display:inline-block;
+            }
+            article{
+                background:rgb(241, 237, 237);
+                border:3px solid orange;
+                padding:20px;
+                margin-bottom: 15px;
+            }
+            .seccion{
+                margin:20px ;
+              
+                width: 1200px;
+                float:left
+            }
+            .columna{
+                margin:20px 0;
+                width:300px;
+                float:left
+
+                
+            }
+            .columna blockquote{
+                border:3px solid orange;
+                padding:40px;
+                background:rgb(235, 231, 231);
+                margin-bottom:20px;
+                color:black;
+                        }
+            .pie{
+                clear: both;
+                padding:20px;
+                background:#2f3542;
+                font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                color:white;
+                
+            }
+            article footer{
+                text-align:right;
+                font-style: normal;
+                margin-top:20px;
+                font-weight: bold;
+            }
+            time{
+                color:gray;
+                font-weight: lighter;
+            }
+            img{
+                width: 500px;
+                display:block;
+                margin:20px auto;
+
+            }
+            p{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .separacion{
+                width: 100px;
+                color:rgb(245, 199, 115);
+                text-align: center;
+            }
+            .cabeza::after{
+                content:"";
+                height: 100vh;
+                width: 100%;
+                background-image:url(../images/cabezera.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display:block;
+                filter:blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                transition:all 1000ms;
+            }
+            .header_hover::after{
+                filter:blur(0px);
+                -webkit-backdrop-filter: blur(0px);
+
+            }
+            .cabeza:hover .header-content{
+                filter:blur(2px);
+                -webkit-backdrop-filter: blur(2px);
+            }
+            .header-content{
+                position:absolute;
+                z-index :1;
+                top:10%;
+                left:50%;
+                margin-top:105px;
+                margin-left:-145px;
+                text-align:center;
+                width:300px;
+                height:350px;
+                transition:all 1000ms;
+
+            }
+            .header-content .logo{
+                height: 100px;
+                width:100px;
+            }
+            .title{
+                font-family: 'Oswald', sans-serif;
+                font-size: 90px;
+                margin: 20px;
+            }
+            .text{
+                font-family: 'Bree Serif', serif
+                line-height:1.7;
+                margin-top:1rem;
+            }
+        .container{
+            max width: 960px;
+            margin:auto;
+            overflow:hidden;
+            padding: 4rem 1rem;
+        }
+        .grid-3{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            grid-gap:20px;
+        }
+        .grid-2{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            grid-gap:20px;
+
+        }
+
+        .text-center{
+            text-align:center;
+            margin:auto
+
+        }
+        .bg-ligth{
+            background:#fff;
+            color:#333;
+        }
+        .bg-black{
+            background:#2f3542;
+            color:#fff;
+        }
+        .services{
+            background:rgb(255, 178, 34);
+            padding:2rem 0;
+        }
+        @media(max-width:560px){
+            .header-after{
+                height: 50vh;
+            }
+            .header-content{
+                top 5%;
+                margin-top:5px;
+            }
+            .header-content .logo {
+                height:140px;
+                width:120px;
+            }
+            .header-content .text{
+                display:none;
+            }
+            .grid-3, .grid-2{
+                grid-template-columns: 1fr;
+            }
+            .services{
+                padding:1rem 1rem; 
+            }
+        }
+        @media(max-height:500px){
+            .header-content .title, .header-content .text {
+                display:none;
+            }
+            .header{
+                top:0;
+            }
+        }
