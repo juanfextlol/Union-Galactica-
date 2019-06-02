@@ -58,9 +58,10 @@
                 border:2px solid black
             }
             .menu{
-                background:rgb(238, 235, 235);
+                background:rgb(0, 0, 0);
                 padding:5px 15px;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:white;
             }
             .menu li {
                 list-style:none;
