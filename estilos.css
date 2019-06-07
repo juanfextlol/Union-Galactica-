@@ -288,7 +288,14 @@ transform: rotateY(120deg) translateZ(300px);}
 transform: rotateY(160deg) translateZ(300px);}
 .content-carrousel figure:nth-child(6){
 transform: rotateY(200deg) translateZ(300px);}
-
+.content-carrousel figure:nth-child(7){
+transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){
+transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){
+transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){
+transform: rotateY(360deg) translateZ(300px);}
 .content-carrousel{
 width: 100%;
       }
