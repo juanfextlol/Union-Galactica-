@@ -135,7 +135,7 @@
                 background-size:cover;
                 background-repeat: no-repeat;
                 background-position: center;
-                display:block;
+                display: block;
                 filter:blur(10px);
                 -webkit-backdrop-filter: blur(10px);
                 transition:all 1000ms;
