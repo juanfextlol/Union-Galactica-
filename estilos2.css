@@ -2,6 +2,9 @@
     padding:0px;
     margin:0px;
 }
+header,section,footer,aside,,nav,article,,hgroup{
+    display: block;
+}
 .agrupar{
     border: 1px solid black;
     right: 900px;
