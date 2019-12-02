@@ -5,6 +5,7 @@
 .agrupar{
     border: 1px solid black;
     right: 900px;
+    margin: 15px auto;
 }
 .menu{
     list-style: none;
