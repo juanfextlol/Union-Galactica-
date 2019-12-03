@@ -22,11 +22,15 @@ header,section,footer,aside,,nav,article,,hgroup{
     display: inline-block;
 }
 .header{
-    background-image:url(https://ibb.co/6PSZVDZ);
+    background-image:url(https://i.ibb.co/MVHhWPh/img1.png);
     background-color: orange;
     border: 1px solid black;
     padding: 20px;
-
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 .header h1{
     text-align: left;
