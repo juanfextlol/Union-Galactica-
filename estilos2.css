@@ -18,6 +18,7 @@ header,section,footer,aside,,nav,article,,hgroup{
 .menu li{
     list-style: none;
     padding: 5px;
+    font: bold 14px verdana;
 }
 .header{
     background: red;
