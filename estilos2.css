@@ -20,6 +20,7 @@ header,section,footer,aside,,nav,article,,hgroup{
     padding: 5px;
     font: bold 14px verdana;
     display: inline-block;
+    text-align:left;
 }
 .header{
     background-image:url(https://i.ibb.co/MVHhWPh/img1.png);
@@ -43,4 +44,6 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-
+.seccion{
+    margin: 20px;
+}
