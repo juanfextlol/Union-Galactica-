@@ -11,8 +11,9 @@ header,section,footer,aside,,nav,article,,hgroup{
     margin: 15px auto;
 }
 .menu{
+    background:black;
     list-style: none;
-    display: inline-block;
+    padding: 5px 15px;
 }
 .header{
     background: red;
@@ -21,5 +22,10 @@ header,section,footer,aside,,nav,article,,hgroup{
 }
 body{
     text-align: center;
-    padding: 15px;
 }
+h1{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
