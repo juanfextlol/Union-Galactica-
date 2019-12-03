@@ -21,4 +21,5 @@ header,section,footer,aside,,nav,article,,hgroup{
 }
 body{
     text-align: center;
+    padding: 15px;
 }
