@@ -44,6 +44,12 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+article{
+    background-color: #FBC02D;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
 .seccion{
     margin: 20px;
     width: 600px;
