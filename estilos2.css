@@ -15,6 +15,10 @@ header,section,footer,aside,,nav,article,,hgroup{
     list-style: none;
     padding: 5px 15px;
 }
+.menu li{
+    list-style: none;
+    
+}
 .header{
     background: red;
     border: 1px solid black;
