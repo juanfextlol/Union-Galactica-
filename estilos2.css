@@ -17,7 +17,7 @@ header,section,footer,aside,,nav,article,,hgroup{
 }
 .menu li{
     list-style: none;
-    
+    padding: 5px;
 }
 .header{
     background: red;
