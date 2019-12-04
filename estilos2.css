@@ -73,6 +73,7 @@ article footer{
     float: left;
     margin:20px 0px;
     color: white;
+    font-weight: bold;
 }
 .pie{
     clear:both;
