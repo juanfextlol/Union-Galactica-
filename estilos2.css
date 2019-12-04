@@ -6,12 +6,12 @@ header,section,footer,aside,,nav,article,,hgroup{
     display: block;
 }
 .agrupar{
-    border: 1px solid black;
+    border: 1px solid white;
     width: 960px;
     margin: 0px auto;
 }
 .menu{
-    background:black;
+    background:white;
     list-style: none;
     padding: 5px 15px;
 }
@@ -25,7 +25,7 @@ header,section,footer,aside,,nav,article,,hgroup{
 .header{
     background-image:url(https://i.ibb.co/MVHhWPh/img1.png);
     background-color: orange;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 20px;
     height: 200px;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h1{
 }
 article{
     background-color: #FFCD78;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 20px;
     margin-bottom: 15px;
 }
@@ -57,13 +57,13 @@ article footer{
 .seccion{
     margin: 20px;
     width: 600px;
-    border: 1px solid black;
+    border: 1px solid white;
     float: left;
 }
 .columna
 {
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid white;
     float: left;
     margin:20px 0px;
 }
