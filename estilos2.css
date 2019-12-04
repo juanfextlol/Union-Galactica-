@@ -45,7 +45,7 @@ h1{
     font-weight: bold;
 }
 article{
-    background-color: #FBC02D;
+    background-color: #FFCD78;
     border: 1px solid black;
     padding: 20px;
     margin-bottom: 15px;
@@ -69,4 +69,8 @@ article footer{
 }
 .pie{
     clear:both;
+}
+
+time{
+    color:#999;
 }
