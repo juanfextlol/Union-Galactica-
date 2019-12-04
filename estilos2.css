@@ -6,7 +6,7 @@ header,section,footer,aside,,nav,article,,hgroup{
     display: block;
 }
 .agrupar{
-    border: 1px solid white;
+    border: 2px solid white;
     width: 960px;
     margin: 0px auto;
 }
@@ -46,7 +46,7 @@ h1{
 }
 article{
     background-color: #FFCD78;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 20px;
     margin-bottom: 15px;
 }
@@ -57,13 +57,13 @@ article footer{
 .seccion{
     margin: 20px;
     width: 600px;
-    border: 1px solid white;
+    border: 2px solid white;
     float: left;
 }
 .columna
 {
     width: 300px;
-    border: 1px solid white;
+    border: 2px solid white;
     float: left;
     margin:20px 0px;
 }
