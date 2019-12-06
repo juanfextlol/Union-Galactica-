@@ -98,5 +98,9 @@ time{
     font-family: "Mystery Quest";
     src: url("mystery-quest.woff2");
   }
-
+.cambiador{
+    text-align: left;
+    display: block;
+    padding-bottom: 10px;
+}
 
