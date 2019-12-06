@@ -79,6 +79,9 @@ article footer{
 .columna blockquote{
     border:1px solid white ;
 }
+.columna p {
+    margin:10px  ;
+}
 img{
     width: 400px;
     display: block;
@@ -101,6 +104,7 @@ time{
 .cambiador{
     text-align: left;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
+
 
