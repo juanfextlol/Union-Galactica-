@@ -148,7 +148,7 @@ body {
 }
 .menu li{
     list-style: none;
-    padding: 5px;
+    padding: 8px;
     font: bold 14px verdana;
     display: inline-block;
     text-align:center;
