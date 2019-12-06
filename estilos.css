@@ -43,8 +43,8 @@ body {
   }
   
   .header-content .logo {
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 200px;
   }
   
   .title {
@@ -152,7 +152,7 @@ body {
 }
 .menu li{
     list-style: none;
-    padding: 8px;
+    padding: 0px 20px;
     font: bold 20px "Mystery Quest";
     display: inline-block;
     text-align:center;
