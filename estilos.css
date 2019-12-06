@@ -140,21 +140,20 @@ body {
       top: 0;
     }
   }
+  @font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
+  }
   .menu{
     background:white;
     list-style: none;
-    padding: 5px 15px;
+    padding: 0.2px 10px;
     text-align:center;
 }
 .menu li{
     list-style: none;
     padding: 8px;
-    font: bold 14px verdana;
+    font: bold 20px "Mystery Quest";
     display: inline-block;
     text-align:center;
-    font-size:20px;
-}
-@font-face {
-  font-family: "Mystery Quest";
-  src: url("mystery-quest.woff2");
 }
