@@ -13,12 +13,47 @@
             <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     </head>
+    <script>
+      /**
+      * Array con las imagenes que se iran mostrando en la web
+      */
+      var imagenes=new Array(
+          'img1.png',
+          'img2.png',
+          'img3.png',
+          'img4.png'
+      );
+   
+      /**
+      * Funcion para cambiar la imagen
+      */
+      function rotarImagenes()
+      {
+          // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+          var index=Math.floor((Math.random()*imagenes.length));
+   
+          // cambiamos la imagen
+          document.getElementById("imagen").src=imagenes[index];
+      }
+   
+      /**
+      * Función que se ejecuta una vez cargada la página
+      */
+      onload=function()
+      {
+          // Cargamos una imagen aleatoria
+          rotarImagenes();
+   
+          // Indicamos que cada 5 segundos cambie la imagen
+          setInterval(rotarImagenes,5000);
+      }
+  </script>
     <body>
 
         <!-- Header -->
         <header class="header">
           <div class="header-content animated flash">
-            <img src="images/UG_logo.png" alt="Fazt Logo" class="logo">
+            <img src="images/UG_logo.png" alt="Fazt Logo" class="logo" id="imagen">
             <div class="title">
               Union Galactica!
             </div>
