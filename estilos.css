@@ -150,5 +150,6 @@ body {
     padding: 5px;
     font: bold 14px verdana;
     display: inline-block;
-    text-align:left;
+    text-align:center;
+    font-size:20px;
 }
