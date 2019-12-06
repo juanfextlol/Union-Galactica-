@@ -58,6 +58,7 @@ article{
 }
 article footer{
     text-align: right;
+    margin-top: 20px;
     
 }
 .seccion{
@@ -75,14 +76,19 @@ article footer{
     color: white;
     font-weight: bold;
 }
+.columna blockquote{
+    border:1px solid white ;
+}
 img{
-    width: 80px;
+    width: 400px;
     display: block;
     margin:auto ;
 }
 .pie{
     clear:both;
     color: white;
+    padding: 20px;
+    background: ;
 }
 
 time{
