@@ -18,7 +18,7 @@ header,section,footer,aside,,nav,article,,hgroup{
 .menu li{
     list-style: none;
     padding: 5px;
-    font: bold 14px verdana;
+    font: bold 14px "Mystery Quest";
     display: inline-block;
     text-align:left;
 }
@@ -46,7 +46,7 @@ h1{
     text-decoration: underline;
 }
 h2{
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
 }
@@ -83,3 +83,7 @@ article footer{
 time{
     color:#999;
 }
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
+  }
