@@ -83,6 +83,10 @@ article footer{
     margin:10px  ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.columna input{
+    padding: 1px;
+    margin-bottom: 20px;
+}
 img{
     width: 400px;
     display: block;
