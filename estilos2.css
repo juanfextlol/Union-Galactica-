@@ -107,5 +107,9 @@ time{
     display: block;
     padding-bottom: 14px;
 }
-
+.rango_administrator{
+    color: red;
+    font-weight: bold;
+    display: block;
+}
 
