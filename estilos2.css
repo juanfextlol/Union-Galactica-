@@ -110,6 +110,6 @@ time{
 .rango_administrator{
     color: red;
     font-weight: bold;
-    display: block;
+    display: inline-block;
 }
 
