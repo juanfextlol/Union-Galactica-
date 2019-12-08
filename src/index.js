@@ -3,7 +3,7 @@ const express = require ("express");
 const app = express();
 
 //settings
-
+app.set("port",process.env.PORT ǀǀ 3000);
 //Midlewars 
 
 //Global Variables
@@ -13,4 +13,6 @@ const app = express();
 //Static Files
 
 //Server is listening
-app.listen()
+app.listen(app.get("port"), () => {
+    console.log("Server on port",app.get("port"));
+});
