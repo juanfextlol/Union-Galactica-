@@ -74,7 +74,7 @@ article footer{
     margin:20px 0px;
     color: white;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
 }
 .columna blockquote{
     border:2px solid white ;
@@ -87,8 +87,10 @@ article footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .columna input{
-    padding: 1px;
+    padding: 5px;
     display:inline block;
+    background:#999 ;
+    color: white;
 }
 .columna h1{
     text-align:center;
