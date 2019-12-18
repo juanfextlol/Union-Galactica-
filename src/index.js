@@ -5,6 +5,7 @@ const methodOverride = require("method-override");
 const session = require("express-session");
 //Initializations
 const app = express();
+require("./database");
 
 //settings
 app.set('port', process.env.PORT || 4000);
