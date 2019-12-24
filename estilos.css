@@ -157,3 +157,9 @@ body {
     display: inline-block;
     text-align:center;
 }
+.imagen{
+  width: 150px;
+  display: block;
+  margin:auto ;
+}
+  
