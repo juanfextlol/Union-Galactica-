@@ -152,9 +152,14 @@ body {
     text-align:center;
 }
 .imagen{
-  width: 150px;
+  width: 200px;
   display: block;
   margin:auto ;
   padding-bottom: 10px;
 }
-  
+.pokemmo{
+  width: 390px;
+  display: block;
+  margin:auto ;
+  padding-bottom: 30px;
+}
