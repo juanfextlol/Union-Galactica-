@@ -1,6 +1,11 @@
 const express = require("express");
 const router = express.Router();
-router.get("/perfil",(req, res) => {
+
+router.get("/notes/add", (req,res)=>{
+    res.render("notes/new-note");
+
+});
+router.get("/notes",(req, res) => {
     res.send("Editar mi perfil");
 });
 
