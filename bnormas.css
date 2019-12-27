@@ -1,0 +1,135 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+.agrupar{
+    border: 2px solid white;
+    width: 960px;
+    margin: 0px auto;
+}
+.menu{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+    list-style: none;
+    padding: 5px 15px;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px "Mystery Quest";
+    display: inline-block;
+    text-align:left;
+}
+.header{
+    background-image:url(https://i.ibb.co/MVHhWPh/img1.png);
+    background-color: orange;
+    border: 1px solid white;
+    padding: 20px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.header h1{
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+article{
+    background-color:#F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    border: 3px solid white;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+    
+}
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+.columna
+{
+    width: 300px;
+    border: 2px solid white;
+    float: left;
+    margin:20px 0px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.columna blockquote{
+    border:2px solid white ;
+    padding: 20px;
+    background-color:#F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    margin-bottom: 0px;
+}
+.columna p {
+    margin:10px  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.columna input{
+    padding: 5px;
+    display:inline block;
+    background:#999 ;
+    color: white;
+}
+.columna h1{
+    text-align:center;
+    padding-bottom: 10px;
+}
+img{
+    width: 400px;
+    display: block;
+    margin:auto ;
+}
+.pie{
+    clear:both;
+    color: white;
+    padding: 20px;
+    background:white ;
+}
+
+time{
+    color:#999;
+}
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
+  }
+.cambiador{
+    text-align: left;
+    display: block;
+    padding-bottom: 14px;
+}
+.rango_administrator{
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+
