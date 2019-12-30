@@ -1,0 +1,57 @@
+body{
+    background-color: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.agrupar{
+    border: 2px solid white;
+    width: 2000px;
+    margin: 0px auto;
+}
+.menu{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+    list-style: none;
+    padding: 5px 15px;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px "Mystery Quest";
+    display: inline-block;
+    text-align:center;
+    font-size: 30px;
+}
+.header{
+    background-image:url(https://i.ibb.co/MVHhWPh/img1.png);
+    background-color: orange;
+    border: 1px solid white;
+    padding: 20px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 40px;
+}
+.header h1{
+    text-align: left;
+    font-size: 40px;
+}
