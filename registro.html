@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+</head>
+<body>
+    
+</body>
+</html>
+<form action="noticias.html" method="post" target="_blank">
+
+    <p>Usuario: <input type="text" name="usuario" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,15}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required></p>
+  
+    <p>Contraseña: <input type="password" name="pass" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required></p>
+  
+    <p>
+  
+      <input type="submit" value="Enviar">
+  
+      <input type="submit" value="Enviar sin validación" formmethod="get" formnovalidate>
+  
+    </p>
+  
+  </form>
