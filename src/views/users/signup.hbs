@@ -2,24 +2,24 @@
     <div class="col-md-4 mx-auto">
         <div class="card">
             <div class="card-header">
-                Registrarse!
+                Registrate en la Union Galactica! :
             </div>
             <div class="card-body">
                 <form action="/users/signup" method="POST">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="name"placeholder="Nick de Usuario">
+                        <input type="text" class="form-control" name="name"placeholder="Nick de Usuario" value="{{name}}">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="pais"placeholder="Pais">
+                        <input type="text" class="form-control" name="pais"placeholder="Pais" value="{{pais}}">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email"placeholder="Email">
+                        <input type="email" class="form-control" name="email"placeholder="Email"value="{{email}}">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" name="password"placeholder="Contraseña">
+                        <input type="password" class="form-control" name="password"placeholder="Contraseña"value="{{password}}">
                     </div>
                    <div class="form-group">
-                        <input type="password" class="form-control" name="confirm_password"placeholder="Confirmar Contraseña">
+                        <input type="password" class="form-control" name="confirm_password"placeholder="Confirmar Contraseña" value="{{confirm_password}}">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
