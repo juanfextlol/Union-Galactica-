@@ -1,4 +1,4 @@
-<h1>Tus Torneos</h1>
+<h1>Tus Torneos🏆</h1>
 <div class="row">
     {{#each notes }}
     <div class="col-md-3">
@@ -21,6 +21,7 @@
 {{else}}
 <div class="card mx-auto">
     <div class="card-body">
+        <h1>Hola! , {{user.name}}</h1>
         <p class="lead">No has creado ningun Torneo Aun.</p>
         <a href="/notes/add"class="btn btn-success btn-block">Crear un Torneo!</a>
     </div>
