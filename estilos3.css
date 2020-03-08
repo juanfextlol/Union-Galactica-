@@ -64,20 +64,20 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 }
 article footer{
     text-align: right;
-    margin-top: 20px;
+    margin-top: 210px;
     
 }
 .seccion{
-    margin: 20px;
+    margin: 0px;
     width: 1200px;
     float: left;
 }
 .columna
 {
-    width: 300px;
+    width: 340px;
     border: 2px solid white;
     float: left;
-    margin:20px 0px;
+    margin:0px 0px;
     color: white;
     font-weight: bold;
     margin-bottom: 0%;
